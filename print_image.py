@@ -1,7 +1,8 @@
+# https://github.com/404rgr/print-image-in-terminal
 import numpy
 from PIL import Image
 
-class pausi:
+class print_image:
     def __init__(self, image_path):
        self.image_path = image_path
        self.main()
@@ -35,7 +36,7 @@ class pausi:
 import sys
 if len(sys.argv) > 1:
    try:
-     pausi(sys.argv[1])
+     print_image(sys.argv[1])
    except FileNotFoundError:
      print("File Not Found")
 else:
