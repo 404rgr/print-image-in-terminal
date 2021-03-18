@@ -1,5 +1,6 @@
 # Print Image in Terminal
-used for display images in your terminal
+**used for display images in your terminal**
+![print](https://user-images.githubusercontent.com/43511729/111573108-72973880-87dc-11eb-9325-52c7078b434a.png)
 
 ### Prerequisites
 
